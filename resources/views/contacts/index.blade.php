@@ -8,7 +8,7 @@
 
 @foreach ($contacts as $contact)
 <div class="card-container d-inline-flex p-2">
-    <div class="card p-2" style="width: 18rem;">
+    <div class="card p-2" style="width: 17rem;">
         <div class="card-content flex-column d-flex align-items-center ">
             <h3>Contact ID : {{$contact->id}}</h3>
 

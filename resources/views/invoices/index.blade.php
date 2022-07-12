@@ -6,10 +6,13 @@
 
 <h1>Liste Factures</h1>
 
-<ul>
+
+
 @foreach ($invoices as $invoice)
-<div class="card-container d-inline-flex  p-2">
-<div class="card p-2" style="width: 18rem;">
+
+
+<div class="card-containe d-inline-flex p-2" >
+<div class="card p-2" style="width: 17rem">
     <div class="card-content flex-column d-flex align-items-center">
 <h3>Facture: {{$invoice->id}}</h3>
 
@@ -48,8 +51,10 @@
 </form>
 </div>
 </div>
+
 @endforeach
-</ul>
+
+
 
 
 @endsection

@@ -17,7 +17,7 @@
 <p>Prix TTC: {{$invoices->pricettc}}</p>
 <p>N° de facture: {{$invoices->number}}</p>
 <div class="edit-button-wrapper">
-    <button><a href="{{route("invoices.index",)}}">Retour factures</a></button>
+    <button><a href="{{route("invoices.index",)}}">Retour </a></button>
 </div>
         </div>
     </div>    

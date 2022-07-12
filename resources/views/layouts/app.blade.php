@@ -12,6 +12,7 @@
 
     <nav class="navbar bg-muted">
         <form class="container-fluid justify-content-center">
+          <button class="btn  btn-outline-warning me-2" type="button"><a href="{{route('welcomes.index')}}">Acceuil</a></button>
           <button class="btn  btn-outline-success me-2" type="button"><a href="{{route('contacts.index')}}">Contacts</a></button>
           <button class="btn  btn-outline-success me-2" type="button"><a href="{{route('contacts.create')}}">Creer Contact</a></button>
           <button class="btn  btn-outline-danger me-2" type="button"><a href="{{route('entreprises.index')}}">Entreprises</a></button>
