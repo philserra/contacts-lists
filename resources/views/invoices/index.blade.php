@@ -20,11 +20,11 @@
 
     <p>Date: {{$invoice->date}}</p> 
 
-    <p>Prix HT: {{$invoice->priceht}}</p> 
+    <p>Prix HT: {{$invoice->priceht}} €</p> 
 
-    <p>TVA: {{$invoice->tva}}</p> 
+    <p>TVA: {{$invoice->tva}} %</p> 
 
-    <p>Prix TTC: {{$invoice->pricettc}}</p>
+    <p>Prix TTC: {{$invoice->pricettc}} €</p>
 
     <p>N° de facture: {{$invoice->number}}</p> 
 

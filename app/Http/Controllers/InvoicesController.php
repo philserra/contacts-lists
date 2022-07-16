@@ -49,11 +49,13 @@ class InvoicesController extends Controller
             "tva.numeric" => "Cette TVA n\'est pas valide",
         ]);
 
+        $new_id = $request->id;
+
         $new_date = $request->date;
 
         $number_rand = rand(0, 9) . rand(0, 9);
 
-        $new_numero = $new_date . '-' . $number_rand;
+        $new_numero = $new_date . '-' . $new_id . '-' . $number_rand;
 
 
         Invoice::create([

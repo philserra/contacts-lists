@@ -28,6 +28,10 @@
         <div class="edit-button-wrapper">
             <button><a href="{{route("contacts.edit", [$contact->id])}}">Modifier</a></button>
         </div>
+
+        <div class="creat-button-wrapper">
+        <button class=""><a href="{{route('invoices.create', [$contact->id])}}">Creer facture</a></button>
+        </div>
        
 
 

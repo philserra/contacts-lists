@@ -157,3 +157,19 @@ h1 {
 .wrapper .edit-button-wrapper button:hover {
     background-color: #d3ba00;
 }
+
+.creat-button-wrapper button {
+    border: none;
+    border-radius: 4px;
+    background-color: #d292eb;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 53px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+}
+
+.creat-button-wrapper button:hover {
+    background-color: #9d19fb;
+}
